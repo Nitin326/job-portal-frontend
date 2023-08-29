@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.form_input{
+    background-color:#565860b8 !important;
+    border: none !important;
+    color: white !important;
+}
+
+.form_input::placeholder{
+    color: white !important;
+}
+
+.form_input:focus{
+    background-color: #565860b8 !important;
+    box-shadow: none !important;
+}
+

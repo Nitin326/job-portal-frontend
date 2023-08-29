@@ -1,0 +1,66 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.brand_name {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.45);
+  font-weight: bold;
+}
+
+.brand_name:hover {
+  color: white;
+}
+
+.nav_links{
+    margin-left: auto;
+}
+
+.links {
+  color: rgba(255, 255, 255, 0.772);
+  text-decoration: none;
+  margin: 8px;
+}
+
+.links:hover {
+  color: white;
+}
+
+.btn_link {
+  background-color: rgba(255, 255, 255, 0.772);
+  color: rgb(0, 0, 0);
+  margin: 0px 5px 0px 5px;
+  border: none;
+  border-radius: 5px;
+  padding: 3px 8px 3px 8px;
+  font-weight: 500;
+}
+
+.card-container {
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center;
+  padding-top: 10rem;
+}
+
+.job_card {
+  position : relative;
+  background-color: #282a36;
+  box-shadow: rgba(162, 162, 164, 0.2) 0px 7px 29px 0px;
+  color: white;
+}
+
+.job_card_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.job_card_body {
+  color: white;
+}

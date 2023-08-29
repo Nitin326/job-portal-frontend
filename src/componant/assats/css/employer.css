@@ -1,0 +1,104 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #282a36;
+}
+
+/* Navbar */
+
+.brand_name {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.45);
+  font-weight: bold;
+}
+
+.brand_name:hover {
+  color: white;
+}
+
+.nav_btns {
+  margin-left: auto;
+  padding: 10px;
+}
+
+.btn_link {
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.772);
+  color: rgb(0, 0, 0);
+  margin: 0px 5px 0px 5px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 8px 5px 8px;
+  font-weight: 500;
+}
+
+/* dashboard */
+
+.no_job_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+/* modal */
+
+.modal-header {
+  background-color: #25292c;
+  color: white;
+}
+
+.modal-header .btn-close {
+  background-color: white;
+}
+
+.modal-body {
+  background-color: #25292c;
+}
+
+/* Job Table */
+
+.jobs_table {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  background-color: #282a36;
+}
+
+.jobs_table_head tr th {
+  background-color: #cf1bfca3;
+  font-weight: bolder;
+}
+
+/* Job Card */
+
+.job_card_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.emp_job_card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: "540px";
+  background-color: #282a36;
+  box-shadow: rgba(162, 162, 164, 0.2) 0px 7px 29px 0px;
+}
+
+.job_card_body {
+  color: white;
+}
+
+.my-frame{
+  height: 100vh;
+}
